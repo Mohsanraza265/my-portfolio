@@ -12,7 +12,7 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1Aq-U_l7Y_w0hTiwbPL2i5RAmXBzcUvQf/view",
     linkedin: "https://www.linkedin.com/in/mohsan-raza-92941a22a/",
-    facebook: "https://www.facebook.com/mohsan.razarajper.9/",
+    facebook: "",
     
   };
   
@@ -282,6 +282,23 @@ export const Bio = {
       category: "Vue Js",
       github: "https://github.com/dev-paceglobal/nuxt-portal",
       webapp: "https://s2chief-clothing-admin.netlify.app/",
+    },
+    {
+      id: 3,
+      title: "Noke sneaker",
+      date: "September 2022 - September 2023",
+      description:
+        "Crafting a captivating and user-centric design for our sneaker web application. Focusing on clean, intuitive interfaces, responsive layouts, and a harmonious color palette. Prioritizing both aesthetics and usability to ensure an engaging and seamless user experience. Leveraging modern design principles to showcase fashion in its best light while enhancing navigation and accessibility.",
+      image:
+        "https://app.gemoo.com/share/image-annotation/563544229177643008?codeId=v69mXrNE6xENy&origin=imageurlgenerator",
+      tags: [
+        "React Js",
+        "Laravel",
+        "redux-toolkit",
+      ],
+      category: "React Js",
+      github: "https://github.com/Mohsanraza265/react-first-ecommerce",
+      webapp: "https://nike-sneaker-ecommerce.netlify.app/",
     },
     
     

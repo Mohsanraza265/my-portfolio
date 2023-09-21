@@ -4,8 +4,8 @@ import { useTheme } from "styled-components";
 import { Bio } from "../../data/Constants";
 import { Link as LinkR } from 'react-router-dom';
 import styled from "styled-components";
-import { DiCssdeck } from 'react-icons/di'
-import { FaBars } from 'react-icons/fa'
+// import { DiCssdeck } from 'react-icons/di'
+// import { FaBars } from 'react-icons/fa'
 
 const Nav = styled.div`
     background-color: ${({ theme }) => theme.card_light};
@@ -163,14 +163,15 @@ const Navbar = () => {
       <NavContainer>
         <NavLogo to='/'>
           <a href="/" style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            {/* <DiCssdeck size="3rem" />  */}
+            <Span>Portfolio</Span>
           </a>
         </NavLogo>
-        <MobileIcon>
+        {/* <MobileIcon>
           <FaBars onClick={() => {
             setIsOpen(!isOpen)
           }} />
-        </MobileIcon>
+        </MobileIcon> */}
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>

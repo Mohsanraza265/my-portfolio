@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/Constants";
-import Typewriter from "typewriter-effect"
+// import Typewriter from "typewriter-effect"
 import HeroImg from "../../images/raza-removebg-preview.png"
-import HeroBgAnimation from "../HeroBgAnimation";
+// import HeroBgAnimation from "../HeroBgAnimation";
 
 const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -212,7 +212,7 @@ const Hero = () => {
         <div id="about">
             <HeroContainer>
                 <HeroBg>
-                    <HeroBgAnimation />
+                    {/* <HeroBgAnimation /> */}
                 </HeroBg>
                 <HeroInnerContainer >
                     <HeroLeftContainer>
@@ -220,13 +220,13 @@ const Hero = () => {
                         <TextLoop>
                             I am a 
                             <Span>
-                                <Typewriter
+                                {/* <Typewriter
                                     options={{
                                         strings: Bio.roles,
                                         autoStart: true,
                                         loop: true,
                                     }}
-                                />
+                                /> */}
                                 
                             </Span>
                         </TextLoop>
